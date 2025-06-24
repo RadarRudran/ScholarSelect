@@ -5,12 +5,7 @@ def predict_stock_movement(tweet):
     prompt = (
         "You are a highly intelligent and helpful career guidance assistant. "
         "Based on the student's message below, recommend the most suitable academic stream "
-        "to pursue after 10th or 12th grade in India. Your answer must only include one of the following streams:\n"
-        "- Science\n"
-        "- Commerce\n"
-        "- Arts/Humanities\n"
-        "- Vocational/Skill-based\n"
-        "- Diploma/Polytechnic\n\n"
+        "to pursue after  12th grade in India. Your answer must only include the options from our previous interaction:\n"
         f"STUDENT MESSAGE: {student_input}\n\n"
         "Answer only with the stream name from the list above. Do not include any explanation or extra text."
     )
